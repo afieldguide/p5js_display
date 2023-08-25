@@ -15,8 +15,8 @@ function draw() {
   
   rect(25,25,width-50,height-50);
   
-    for(let i = 50; i < width; i+=50){
-      for(let j = 50; j < height; j+=50){
+    for(let i = 0; i < width+50; i+=50){
+      for(let j = 0; j < height+50; j+=50){
         push();
         translate(i,j);
         rotate(r);
